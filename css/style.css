@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+header {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;    
+}
+
+.clearfix {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+header .container {
+    padding: 10px 0;
+}
+
+.logo {
+    display: inline-block;
+    float: left;   
+}
+
+nav {
+   float: right; 
+    margin-top: 15px;
+}
+
+li {
+    display: inline-block;
+    width: 70px; 
+    font-size: 14px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #e92121;
+}
+
+.title {
+    margin-top: 80px;
+    color: white;
+    margin-bottom: 60px;
+    padding: 25px 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;    
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: 20px;    
+}
+
+[type="button"] {
+    background-color: #e92121;
+    border: #e92121;    
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    width: 150px;  
+}
+
+[type="button"]:hover {
+    opacity: 0.8;
+    color: black;
+} 
+
+section {
+    padding: 40px 0;    
+}
+
+section .topic {
+    display: inline-block;
+    width: 50%;    
+    font-size: 48px;
+    font-weight: 800;
+    color: #464646; 
+    vertical-align: middle;
+    text-transform: uppercase;    
+}
+
+section .text {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;    
+    font-size: 16px;
+    line-height: 25px;
+    color: #b7b7b7;
+    margin: 15px 0;    
+}
+
+footer {
+    background-color: black;
+    height: 300px;
+}
+
+.logo2 {
+    color: white;
+    padding: 30px 0;
+}
+
+footer nav {
+    float: left;
+    width: 380px;
+}
+
+footer ul li {
+    width: 180px;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+footer a {
+    color: #474747;
+}
+
+footer a:hover {
+    color: #e92121;
+}
+
+footer .copy {
+    float: right;
+    font-size: 16px; 
+    color: #353434;
+}
